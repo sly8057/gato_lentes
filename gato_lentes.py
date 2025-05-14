@@ -17,7 +17,8 @@ total_lentes = len(lentes_png)
 lente_index = 0
 
 # Imagen fija
-imagen_fija_path = os.path.join(os.getcwd(), 'original_bobby.jpg')
+#imagen_fija_path = os.path.join(os.getcwd(), 'original_bobby.jpg')
+imagen_fija_path = os.path.join(os.getcwd(), 'original_malakis.jpg')
 
 # ==== FUNCIONES ====
 def superponer_png(base_img, overlay_png, x, y, ancho_rostro, alto_rostro):
